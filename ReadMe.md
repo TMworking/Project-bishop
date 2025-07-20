@@ -2,7 +2,7 @@
 ## Quick start
 - Clone Repo:
   ```bash
-  git clone https://github.com/{username}/{repoName}.git
+  https://github.com/TMworking/Project-bishop.git
   ```
 - Build project
   ```bash
