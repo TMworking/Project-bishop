@@ -1,0 +1,4 @@
+audit:
+  mode: KAFKA
+  kafka:
+    topic: bishop-audit-events

@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: console
+
+command:
+  queue:
+      capacity: 5
+  thread-pool:
+    core-size: 2
+    max-size: 4
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics
+
+springdoc:
+  show-actuator: true
